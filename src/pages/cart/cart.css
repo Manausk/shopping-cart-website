@@ -6,7 +6,7 @@
 }
 
 .cartItem {
-  width: 700px;
+  width: 800px;
   height: 250px;
   display: flex;
 
@@ -17,18 +17,24 @@
 }
 
 .cartItem img {
-  width: 200px;
+  width: 230px;
 }
 
 .cartItem .description {
   width: 100%;
+  margin-left: 20px;
   font-size: 30px;
 }
 
 .countHandler input {
   width: 40px;
+  margin-right: 10px;
   text-align: center;
   font-weight: bolder;
+}
+
+.countHandler button {
+  margin-right: 10px;
 }
 
 .checkout button {
